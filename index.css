@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffcc00, #ff6666);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.all {
+    display: none;
+}
+
+.container {
+    position: absolute;
+    top: 478px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 218px;
+    height: 456px;
+    background-color: #000000;
+    border-radius: 246px;
+}
+
+.sum {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    height: 39%;
+}
+
+.sum span {
+    margin-right: 14px;
+    font-size: 42px;
+    justify-self: flex-end;
+}
+
+.button2 {
+    width: 100%;
+    height: 60%;
+    background: #000000;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+.lol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    font-size: 21px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 50%;
+    width: 46px;
+    height: 50px;
+    justify-self: center;
+}
+
+
+.percentage {
+    background-color: #9e9e9e;
+    border: none;
+    color: #000000;
+}
+
+.plus-minus {
+    background-color: #9e9e9e;
+    border: none;
+}
+
+.AC {
+    background-color: #9e9e9e;
+    border: none;
+}
+
+.orange {
+    background-color: orange;
+    border: none;
+}
+
+.number {
+    background-color: #333333;
+    border: none;
+}
+
+.decimal {
+    background-color: #333333;
+    border: none;
+}
+
+.plus-minus {
+    color: #000000;
+}
+
+.AC {
+    color: #000000;
+}
+
+.haha {
+    background-color: #333333;
+    width: 92px;
+    border-radius: 135px;
+    grid-column: span 2;
+
+}
+
+.image {
+    position: absolute;
+}
+
+.st1 {
+    margin-bottom: 700px;
+    margin-top: 200px;
+}
+
+.st2 {
+    margin-left: 700px;
+}
